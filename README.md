@@ -10,6 +10,16 @@ Please adjust the INPUT section in the script to your needs.
 
 The data in directory `images` is test data and consists of Gaussian noise only.  
 
+Just run:
+```
+git clone https://github.com/lh-astro/IDIA-generate-huge-fits-cube
+cd IDIA-generate-huge-fits-cube
+# remove the fits data cube
+rm cube.COSMOS.fits
+# and start the python proramm to rebuild it again
+python3 generate_huge_fits_cube.py
+```
+
 Developed at: IDIA (Institure for Data Intensive Astronomy), Cape Town, ZA  
 Inspired by: https://github.com/idia-astro/image-generator  
 Source: https://github.com/lh-astro/IDIA-generate-huge-fits-cube
